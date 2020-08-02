@@ -8,7 +8,7 @@
 #include <cmath>
 using namespace std;
 
-class Server {
+class Sri {
 private:
 	static int load;
 public:
@@ -28,7 +28,7 @@ public:
 		return load;
 	}
 };
-int Server::load = 0;
+int Sri::load = 0;
 
 int main() {
 	int T; cin >> T;
