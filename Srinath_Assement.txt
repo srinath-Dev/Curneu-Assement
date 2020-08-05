@@ -18,7 +18,7 @@ public:
 			throw std::invalid_argument("A is negative");
 		}
 		vector<int> v(A, 0);
-		int real = -1, cmplx = sqrt,7(-1);
+		int real = -1, cmplx = sqrt(-1);
 		if(B == 0) throw 0;
 		real = (A/B)*real;
 		int ans = v.at(B);
@@ -36,9 +36,8 @@ int main() {
 		long long A, B;
 		cin >> A >> B;
 
-		
         try {
-            cout << Server::compute(A,B) << endl;
+            cout << Sri::compute(A,B) << endl;
         } 
         catch (bad_alloc& error) {
             cout << "Not enough memory" << endl;
@@ -51,10 +50,9 @@ int main() {
         }
 
 	}
-	cout << Server::getLoad() << endl;
+	cout << Sri::getLoad() << endl;
 	return 0;
 }
-
 
 
 // First program Question 1:
